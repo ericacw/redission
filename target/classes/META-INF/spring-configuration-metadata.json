@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "spring.redis",
+      "type": "com.example.springboot_redis.redis.RedisProperties",
+      "sourceType": "com.example.springboot_redis.redis.RedisProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.springboot_redis.redis.RedisProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "com.example.springboot_redis.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.springboot_redis.redis.RedisProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
